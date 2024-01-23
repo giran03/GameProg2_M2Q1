@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_Menu.unity
     guid: 86bce01d8fb774a44987757c40785f05
   - enabled: 1
-    path: Assets/Scenes/Level_1.unity
+    path: Assets/Scenes/Level_1_Cifra.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Level_2.unity
+    path: Assets/Scenes/Level_2_Parreno.unity
     guid: fb7d833bf26544e4a81d7982424aaba0
   - enabled: 1
-    path: Assets/Scenes/Level_3.unity
+    path: Assets/Scenes/Level_3_Perucho.unity
     guid: 73c64cf9898a3a547ad8c1e0ea0f361f
   m_configObjects: {}
