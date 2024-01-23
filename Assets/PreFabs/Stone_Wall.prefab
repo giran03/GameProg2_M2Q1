@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2206350237189286910}
   - component: {fileID: 7632819518531953228}
   - component: {fileID: 1047369773314887862}
-  - component: {fileID: 1117411475135849831}
+  - component: {fileID: 8562550326449841531}
   m_Layer: 0
   m_Name: Stone_Wall
   m_TagString: Untagged
@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3967918930961663228}
-  m_Mesh: {fileID: 4579454407841743219, guid: 6ee3ff644445f6848b1c884fcd653d26, type: 3}
+  m_Mesh: {fileID: 4579454407841743219, guid: 331c7ddc28360bc469ba3dcda0a29996, type: 3}
 --- !u!23 &1047369773314887862
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2952657955547017807, guid: 6ee3ff644445f6848b1c884fcd653d26, type: 3}
+  - {fileID: -2952657955547017807, guid: 331c7ddc28360bc469ba3dcda0a29996, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1117411475135849831
+--- !u!65 &8562550326449841531
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -103,5 +103,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 12.568079, y: 11.897741, z: 2.54378}
-  m_Center: {x: 0.07530928, y: 5.0674744, z: 0.0002721548}
+  m_Size: {x: 12.537698, y: 11.898137, z: 2.518156}
+  m_Center: {x: 0.07668877, y: 5.0632863, z: 0.012303054}

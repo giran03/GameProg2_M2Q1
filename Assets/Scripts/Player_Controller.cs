@@ -10,17 +10,26 @@ public class Player_Controller : MonoBehaviour
 
     [Header("Configs")]
     [SerializeField] float movementSpeed;
-    [SerializeField] float rotation_speed;
+    [SerializeField] float rotationSpeed;
     [SerializeField] float jumpHeight;
     [SerializeField] float gravityValue;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
         var rend = GetComponent<Renderer>();
         rend.material.SetColor("_Color", Color.cyan);
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update()
+    {
+        MovePlayer();
+    }
+
+    void MovePlayer()
     {
         grounded = characterController.isGrounded;
 
@@ -43,7 +52,7 @@ public class Player_Controller : MonoBehaviour
         }
 
         // player rotation
-        transform.Rotate(0, Input.GetAxis("Horizontal") * rotation_speed, 0);
+        transform.Rotate(0, Input.GetAxis("Horizontal") * rotationSpeed, 0);
 
         characterController.Move(playerVelocity * Time.deltaTime + movementSpeed * Time.deltaTime * move);
     }
