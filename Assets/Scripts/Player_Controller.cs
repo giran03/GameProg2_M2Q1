@@ -13,6 +13,7 @@ public class Player_Controller : MonoBehaviour
     [SerializeField] float rotationSpeed;
     [SerializeField] float jumpHeight;
     [SerializeField] float gravityValue;
+    (Vector3, Quaternion) respawn_position;
 
     void Start()
     {
@@ -22,11 +23,14 @@ public class Player_Controller : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        respawn_position = (transform.position, transform.rotation);
     }
 
     void Update()
     {
         MovePlayer();
+        WorldBounds();
     }
 
     void MovePlayer()
@@ -38,7 +42,6 @@ public class Player_Controller : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
-            Debug.Log("Pressed space");
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3f * gravityValue);
         }
 
@@ -55,6 +58,25 @@ public class Player_Controller : MonoBehaviour
         transform.Rotate(0, Input.GetAxis("Horizontal") * rotationSpeed, 0);
 
         characterController.Move(playerVelocity * Time.deltaTime + movementSpeed * Time.deltaTime * move);
+    }
+
+    public void TeleportPlayer(Vector3 position, Quaternion rotation)
+    {
+        transform.SetPositionAndRotation(position, Quaternion.Euler(rotation.eulerAngles));
+        Physics.SyncTransforms();
+    }
+    public void RespawnPlayer()
+    {
+        var (position, rotation) = respawn_position;
+        TeleportPlayer(position, rotation);
+    }
+
+    void WorldBounds()
+    {
+        if (transform.position.y < -50)
+        {
+            RespawnPlayer();
+        }
     }
 
 }

@@ -14,12 +14,15 @@ public class Breakable_Wall_Controller : MonoBehaviour
 
     private void Start()
     {
-        current_scene = SceneManager.GetActiveScene();
-        scene_name = current_scene.name;
+        
     }
 
     void Update()
     {
+        // get current scene
+        current_scene = SceneManager.GetActiveScene();
+        scene_name = current_scene.name;
+
         BreakWall();
     }
 
@@ -40,9 +43,9 @@ public class Breakable_Wall_Controller : MonoBehaviour
         }
         else if (scene_name == "Level_2_Parreno")
         {
-            if (Input.GetKeyDown(KeyCode.E) && can_break_wall)
+            if (Input.GetKeyDown(KeyCode.E) && can_break_wall && Pickaxe_Handler.collected != 0)
             {
-                Debug.Log("Pressed A Key!!!");
+                Pickaxe_Handler.collected -= 1;
                 var wall = Instantiate(breakable_wall, transform.position, transform.rotation);
                 gameObject.SetActive(false);
                 Destroy(wall, 3f);
