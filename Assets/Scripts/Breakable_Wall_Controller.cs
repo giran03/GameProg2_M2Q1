@@ -36,7 +36,13 @@ public class Breakable_Wall_Controller : MonoBehaviour
     {
         if (scene_name == "Level_1_Cifra")
         {
-            Debug.Log("Scene Level 1");
+           if (Input.GetKeyDown(KeyCode.E) && can_break_wall && Pickaxe_Handler.collected != 0)
+            {
+                Pickaxe_Handler.collected -= 1;
+                var wall = Instantiate(breakable_wall, transform.position, transform.rotation);
+                gameObject.SetActive(false);
+                Destroy(wall, 3f);
+            }
         }
         else if (scene_name == "Level_2_Parreno")
         {

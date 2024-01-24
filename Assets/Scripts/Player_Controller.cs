@@ -38,7 +38,7 @@ public class Player_Controller : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
-            Debug.Log("Pressed space");
+            //Debug.Log("Pressed space");
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3f * gravityValue);
         }
 
