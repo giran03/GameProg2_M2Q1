@@ -28,11 +28,14 @@ public class HUD_Handler : MonoBehaviour
 
     void LevelMechanicsHandler()
     {
+        // ======================= LEVEL 1 ======================= 
         if (scene_name == "Level_1_Cifra")
         {
             Debug.Log("Scene Level 1");
             pickaxe_mechanics.SetActive(false);
         }
+
+        // ======================= LEVEL 2 ======================= 
         else if (scene_name == "Level_2_Parreno")
         {
             // pickaxe mechanic
@@ -43,6 +46,8 @@ public class HUD_Handler : MonoBehaviour
             float timer_to_seconds = Mathf.FloorToInt(timer);
             level_timer.SetText("TIME REMAINING: " + timer_to_seconds);
         }
+
+        // ======================= LEVEL 3 ======================= 
         else if (scene_name == "Level_3_Perucho")
         {
             Debug.Log("Scene Level 3");

@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player_Controller : MonoBehaviour
 {
-    private Vector3 playerVelocity;
-    private CharacterController characterController;
-    private bool grounded;
+    Vector3 playerVelocity;
+    CharacterController characterController;
+    bool grounded;
+    AudioSource player_footsteps_sfx;
 
     [Header("Configs")]
     [SerializeField] float movementSpeed;
@@ -21,6 +23,9 @@ public class Player_Controller : MonoBehaviour
         var rend = GetComponent<Renderer>();
         rend.material.SetColor("_Color", Color.cyan);
 
+        player_footsteps_sfx = GetComponent<AudioSource>();
+        player_footsteps_sfx.volume = .6f;
+
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
@@ -30,6 +35,7 @@ public class Player_Controller : MonoBehaviour
     void Update()
     {
         MovePlayer();
+        PlayerSFX();
         WorldBounds();
     }
 
@@ -41,23 +47,30 @@ public class Player_Controller : MonoBehaviour
         move = transform.TransformDirection(move);
 
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
-        {
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3f * gravityValue);
-        }
 
         if (grounded && playerVelocity.y < 0)
-        {
             playerVelocity.y = -1f;
-        }
         else
-        {
             playerVelocity.y += gravityValue * Time.deltaTime;
-        }
 
         // player rotation
         transform.Rotate(0, Input.GetAxis("Horizontal") * rotationSpeed, 0);
 
         characterController.Move(playerVelocity * Time.deltaTime + movementSpeed * Time.deltaTime * move);
+    }
+
+    void PlayerSFX()
+    {
+        if (Input.GetButtonDown("Vertical"))
+        {
+            player_footsteps_sfx.Play();
+        }
+        else if (Input.GetButtonUp("Vertical"))
+        {
+            player_footsteps_sfx.Stop();
+        }
+
     }
 
     public void TeleportPlayer(Vector3 position, Quaternion rotation)
