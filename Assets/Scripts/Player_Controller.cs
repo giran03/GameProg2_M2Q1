@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player_Controller : MonoBehaviour
 {
-    private Vector3 playerVelocity;
-    private CharacterController characterController;
-    private bool grounded;
+    Vector3 playerVelocity;
+    CharacterController characterController;
+    bool grounded;
+    public static bool isGameOver;
+    AudioSource player_footsteps_sfx;
 
     [Header("Configs")]
     [SerializeField] float movementSpeed;
     [SerializeField] float rotationSpeed;
     [SerializeField] float jumpHeight;
     [SerializeField] float gravityValue;
+    (Vector3, Quaternion) respawn_position;
 
     void Start()
     {
@@ -20,13 +24,19 @@ public class Player_Controller : MonoBehaviour
         var rend = GetComponent<Renderer>();
         rend.material.SetColor("_Color", Color.cyan);
 
+        player_footsteps_sfx = GetComponent<AudioSource>();
+        player_footsteps_sfx.volume = .6f;
+
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        respawn_position = (transform.position, transform.rotation);
     }
 
     void Update()
     {
         MovePlayer();
+        WorldBounds();
     }
 
     void MovePlayer()
@@ -37,24 +47,52 @@ public class Player_Controller : MonoBehaviour
         move = transform.TransformDirection(move);
 
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
-        {
-            Debug.Log("Pressed space");
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3f * gravityValue);
-        }
 
         if (grounded && playerVelocity.y < 0)
-        {
             playerVelocity.y = -1f;
-        }
         else
-        {
             playerVelocity.y += gravityValue * Time.deltaTime;
-        }
 
         // player rotation
         transform.Rotate(0, Input.GetAxis("Horizontal") * rotationSpeed, 0);
 
+        if (isGameOver) return;
+
+        PlayerSFX();
         characterController.Move(playerVelocity * Time.deltaTime + movementSpeed * Time.deltaTime * move);
+    }
+
+    void PlayerSFX()
+    {
+        if (Input.GetButtonDown("Vertical"))
+        {
+            player_footsteps_sfx.Play();
+        }
+        else if (Input.GetButtonUp("Vertical"))
+        {
+            player_footsteps_sfx.Stop();
+        }
+
+    }
+
+    public void TeleportPlayer(Vector3 position, Quaternion rotation)
+    {
+        transform.SetPositionAndRotation(position, Quaternion.Euler(rotation.eulerAngles));
+        Physics.SyncTransforms();
+    }
+    public void RespawnPlayer()
+    {
+        var (position, rotation) = respawn_position;
+        TeleportPlayer(position, rotation);
+    }
+
+    void WorldBounds()
+    {
+        if (transform.position.y < -50)
+        {
+            RespawnPlayer();
+        }
     }
 
 }
