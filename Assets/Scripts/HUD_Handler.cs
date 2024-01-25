@@ -84,4 +84,9 @@ public class HUD_Handler : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void ReturnToMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
