@@ -141,7 +141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5160017568198028664}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Side_Facing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3392204489820190391}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Wall_Breakable_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6900374978920408278}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Backward_Facing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -370,7 +370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1829803465088024224}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Forward_Facing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +430,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1048101871411524914}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pickaxe_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7975213456981975706}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Torch_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2223000753290037853}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Teleporter_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,7 +574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 875249421022347737}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Level_2_Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,9 +651,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -779,9 +791,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -907,9 +931,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -969,9 +1005,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1097,9 +1145,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1203,6 +1263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teleport_Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1739743356947626149, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2200857580656158778, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.2
@@ -1210,6 +1274,14 @@ PrefabInstance:
     - target: {fileID: 2200857580656158778, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
       propertyPath: m_LocalPosition.z
       value: 14.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723840401060133908, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832867684090193538, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1229,9 +1301,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1357,9 +1441,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1485,9 +1581,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1613,9 +1721,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1983,6 +2103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_Wall_Breakable_Joined (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1645586778302225787, guid: 3ec5de03e98ea0f4d8fce8cd36328390, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2001,9 +2125,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2305,6 +2441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_Wall_Breakable_Joined (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1645586778302225787, guid: 3ec5de03e98ea0f4d8fce8cd36328390, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2323,9 +2463,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2451,9 +2603,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2711,9 +2875,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2839,9 +3015,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2901,9 +3089,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2963,9 +3163,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3135,6 +3347,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pickaxe_Unity (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7215697206762142111, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859065242895918334, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3219,9 +3439,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3413,9 +3645,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3475,9 +3719,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3603,9 +3859,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3775,6 +4043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_Wall_Breakable_Joined
       objectReference: {fileID: 0}
+    - target: {fileID: 1645586778302225787, guid: 3ec5de03e98ea0f4d8fce8cd36328390, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3793,9 +4065,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3987,9 +4271,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4049,9 +4345,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4177,9 +4485,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4547,6 +4867,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pickaxe_Unity (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7215697206762142111, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859065242895918334, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4565,9 +4893,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4693,9 +5033,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4953,9 +5305,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5015,9 +5379,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5077,9 +5453,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5139,9 +5527,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5201,9 +5601,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5395,9 +5807,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5523,9 +5947,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5717,9 +6153,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5779,9 +6227,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5885,6 +6345,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pickaxe_Unity (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7215697206762142111, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859065242895918334, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5969,9 +6437,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6031,9 +6511,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6093,9 +6585,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6155,9 +6659,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6260,6 +6776,10 @@ PrefabInstance:
     - target: {fileID: 1645586778302225787, guid: 3ec5de03e98ea0f4d8fce8cd36328390, type: 3}
       propertyPath: m_Name
       value: Stone_Wall_Breakable_Joined (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645586778302225787, guid: 3ec5de03e98ea0f4d8fce8cd36328390, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6401,9 +6921,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 2762438695451355774, guid: 021b90af3f7fdf0428d7b3251f0c63d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3613413227445500724, guid: 021b90af3f7fdf0428d7b3251f0c63d5, type: 3}
       propertyPath: m_Name
       value: Door_L_Pivot
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365805579801057064, guid: 021b90af3f7fdf0428d7b3251f0c63d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6642418615118354258, guid: 021b90af3f7fdf0428d7b3251f0c63d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6445,6 +6973,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6932198256195526268, guid: 021b90af3f7fdf0428d7b3251f0c63d5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6463,9 +6995,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6723,9 +7267,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6785,9 +7341,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6979,9 +7547,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7041,9 +7621,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7103,9 +7695,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7429,9 +8033,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7689,9 +8305,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7795,6 +8423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_Wall_Breakable_Joined (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1645586778302225787, guid: 3ec5de03e98ea0f4d8fce8cd36328390, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7813,9 +8445,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7875,9 +8519,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7981,6 +8637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_Wall_Breakable_Joined (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1645586778302225787, guid: 3ec5de03e98ea0f4d8fce8cd36328390, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7999,9 +8659,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8061,9 +8733,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8232,6 +8916,10 @@ PrefabInstance:
     - target: {fileID: 1645586778302225787, guid: 3ec5de03e98ea0f4d8fce8cd36328390, type: 3}
       propertyPath: m_Name
       value: Stone_Wall_Breakable_Joined (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645586778302225787, guid: 3ec5de03e98ea0f4d8fce8cd36328390, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8427,6 +9115,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teleport_Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 1739743356947626149, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723840401060133908, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832867684090193538, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8445,9 +9145,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8705,9 +9417,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8767,9 +9491,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8938,6 +9674,14 @@ PrefabInstance:
     - target: {fileID: 7215697206762142111, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
       propertyPath: m_Name
       value: Pickaxe_Unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215697206762142111, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859065242895918334, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9265,6 +10009,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pickaxe_Unity (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7215697206762142111, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859065242895918334, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9415,9 +10167,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9477,9 +10241,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9539,9 +10315,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9667,9 +10455,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9795,9 +10595,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9927,6 +10739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Unity_Ground
       objectReference: {fileID: 0}
+    - target: {fileID: 3876480212237375228, guid: f29ff9b7d618254418a9a96f101e5375, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4499811310236126239, guid: f29ff9b7d618254418a9a96f101e5375, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.3
@@ -9985,9 +10801,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10113,9 +10941,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10637,9 +11477,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10831,9 +11683,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11069,6 +11933,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pickaxe_Unity (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7215697206762142111, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859065242895918334, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11087,9 +11959,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11259,6 +12143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teleport_Platform (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1739743356947626149, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2200857580656158778, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.6
@@ -11278,6 +12166,14 @@ PrefabInstance:
     - target: {fileID: 2200857580656158778, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723840401060133908, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832867684090193538, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11363,9 +12259,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11535,6 +12443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teleport_Platform (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1739743356947626149, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2200857580656158778, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.1
@@ -11542,6 +12454,14 @@ PrefabInstance:
     - target: {fileID: 2200857580656158778, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
       propertyPath: m_LocalPosition.z
       value: 36.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723840401060133908, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832867684090193538, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11605,6 +12525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teleport_Platform (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1739743356947626149, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2200857580656158778, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.9
@@ -11625,6 +12549,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 3723840401060133908, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832867684090193538, guid: 2e7e5d1bd2717d348985c1d89eac5a52, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11643,9 +12575,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11771,9 +12715,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11833,9 +12789,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11895,9 +12863,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11957,9 +12937,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12062,6 +13054,14 @@ PrefabInstance:
     - target: {fileID: 7215697206762142111, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
       propertyPath: m_Name
       value: Pickaxe_Unity (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215697206762142111, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859065242895918334, guid: ee1effeb681ead345a66befa5a0a9ddb, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12213,9 +13213,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12275,9 +13287,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12337,9 +13361,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6900374978920408278}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12399,9 +13435,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12527,9 +13575,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5160017568198028664}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12787,9 +13847,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12981,9 +14053,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1829803465088024224}
     m_Modifications:
+    - target: {fileID: 1074358542862901630, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491631671638347918, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_Name
       value: Torch_Unity (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141822983259580621, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6681845767060238969, guid: 15db03cb021b2364b907e9bc43dfa687, type: 3}
       propertyPath: m_LocalPosition.x

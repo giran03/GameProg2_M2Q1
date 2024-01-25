@@ -8,6 +8,7 @@ public class Player_Controller : MonoBehaviour
     Vector3 playerVelocity;
     CharacterController characterController;
     bool grounded;
+    public static bool isGameOver;
     AudioSource player_footsteps_sfx;
 
     [Header("Configs")]
@@ -35,7 +36,6 @@ public class Player_Controller : MonoBehaviour
     void Update()
     {
         MovePlayer();
-        PlayerSFX();
         WorldBounds();
     }
 
@@ -57,6 +57,9 @@ public class Player_Controller : MonoBehaviour
         // player rotation
         transform.Rotate(0, Input.GetAxis("Horizontal") * rotationSpeed, 0);
 
+        if (isGameOver) return;
+
+        PlayerSFX();
         characterController.Move(playerVelocity * Time.deltaTime + movementSpeed * Time.deltaTime * move);
     }
 

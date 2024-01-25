@@ -368,27 +368,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3735688929027683442, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.49992323
+      value: 0.5000011
       objectReference: {fileID: 0}
     - target: {fileID: 3735688929027683442, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.899847
+      value: 1.4000001
       objectReference: {fileID: 0}
     - target: {fileID: 3735688929027683442, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -34.29827
+      value: -3.499999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735688929027683442, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735688929027683442, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4371362142654371364, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.49992323
+      value: 0.5000011
       objectReference: {fileID: 0}
     - target: {fileID: 4371362142654371364, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.899847
+      value: 1.4000001
       objectReference: {fileID: 0}
     - target: {fileID: 4371362142654371364, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -34.29827
+      value: -3.499999
       objectReference: {fileID: 0}
     - target: {fileID: 8038738317799904662, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
       propertyPath: m_Name
@@ -410,6 +418,10 @@ PrefabInstance:
     - target: {fileID: 1760932644109965395, guid: 8bfd05c875b3be74c8a1fc626569e6aa, type: 3}
       propertyPath: m_Name
       value: Level_3_Terrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495757858861640591, guid: 8bfd05c875b3be74c8a1fc626569e6aa, type: 3}
+      propertyPath: m_Size.z
+      value: 3.94
       objectReference: {fileID: 0}
     - target: {fileID: 8479274004523178785, guid: 8bfd05c875b3be74c8a1fc626569e6aa, type: 3}
       propertyPath: m_LocalPosition.x

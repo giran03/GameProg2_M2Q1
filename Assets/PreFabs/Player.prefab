@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4028697743362306316}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player_Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 2458442554957116985}
   - component: {fileID: 8727088154559581509}
   - component: {fileID: 1397748427427507553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ Transform:
   m_GameObject: {fileID: 1156454667106202146}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.50000054, y: 1.4000001, z: -3.5000005}
+  m_LocalPosition: {x: 0.5, y: 1.4, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 5087861077363649982}
   - component: {fileID: 8390955404418122555}
   - component: {fileID: 2385524913686898076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player_Capsule
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 20
-  rotationSpeed: 3
+  rotationSpeed: 1.75
   jumpHeight: 4
   gravityValue: -50
 --- !u!82 &2385524913686898076
@@ -297,14 +297,14 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677106471278494984}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d1e0ceb929a88ba4fa2228b8269a8b3f, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -396,7 +396,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4371362142654371364}
   - component: {fileID: 2832252972217463823}
-  m_Layer: 0
+  - component: {fileID: 2501696902662740177}
+  m_Layer: 6
   m_Name: Virtual Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +413,7 @@ Transform:
   m_GameObject: {fileID: 1868407307471465937}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.50000054, y: 1.4000001, z: -3.5000005}
+  m_LocalPosition: {x: 0.5, y: 1.4, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -458,6 +459,36 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 7010914745934931322}
+--- !u!114 &2501696902662740177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868407307471465937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 8
+  m_IgnoreTag: 
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.1
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 0
+  m_MinimumOcclusionTime: 0
+  m_CameraRadius: 0.1
+  m_Strategy: 1
+  m_MaximumEffort: 4
+  m_SmoothingTime: 0
+  m_Damping: 0
+  m_DampingWhenOccluded: 0
+  m_OptimalTargetDistance: 0
 --- !u!1 &3217984552922499267
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1003678122356514386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Camera_Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,7 +532,7 @@ GameObject:
   - component: {fileID: 5634816651707962487}
   - component: {fileID: 7896280798621388255}
   - component: {fileID: 712696657387773298}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +637,7 @@ GameObject:
   - component: {fileID: 8002262557934529319}
   - component: {fileID: 6668897729723846880}
   - component: {fileID: 6732093067679300579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +739,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3232492008933019737}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Camer Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -743,7 +774,7 @@ GameObject:
   - component: {fileID: 7010914745934931322}
   - component: {fileID: 1822797688028628733}
   - component: {fileID: 4608953955656697477}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +841,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2473381617317068164}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
