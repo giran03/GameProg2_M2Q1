@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 995451408939210496}
   - component: {fileID: 6947512743617031220}
   - component: {fileID: 7673433687259876048}
-  - component: {fileID: 4957021171390680988}
   - component: {fileID: 3687428485415215697}
   - component: {fileID: 5924977961843051943}
+  - component: {fileID: 4957021171390680988}
   m_Layer: 3
   m_Name: Stone_Wall_Breakable_Joined
   m_TagString: Untagged
@@ -87,19 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4957021171390680988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645586778302225787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcdf8e23f8e025444aa2fda23512d7dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breakable_wall: {fileID: 8104715208191112073, guid: 523d311fee0086446a6515cc86c6da68, type: 3}
 --- !u!65 &3687428485415215697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -142,3 +129,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.83, y: 2, z: 0.76}
   m_Center: {x: 0.7563485, y: 0.3700344, z: -0.011774416}
+--- !u!114 &4957021171390680988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645586778302225787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcdf8e23f8e025444aa2fda23512d7dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breakable_wall: {fileID: 8104715208191112073, guid: 523d311fee0086446a6515cc86c6da68, type: 3}
+  wall_sfx: {fileID: 8300000, guid: c358e3417fafdd247a8b1d128b744bb6, type: 3}

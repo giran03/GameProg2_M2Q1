@@ -8,18 +8,16 @@ using UnityEngine.SceneManagement;
 public class Breakable_Wall_Controller : MonoBehaviour
 {
     [SerializeField] GameObject breakable_wall;
+    [SerializeField] AudioClip wall_sfx;
     Scene current_scene;
     String scene_name;
     bool can_break_wall;
 
-    private void Start()
+    void Update()
     {
         current_scene = SceneManager.GetActiveScene();
         scene_name = current_scene.name;
-    }
 
-    void Update()
-    {
         BreakWall();
     }
 
@@ -36,13 +34,14 @@ public class Breakable_Wall_Controller : MonoBehaviour
     {
         if (scene_name == "Level_1_Cifra")
         {
-            Debug.Log("Scene Level 1");
+            
         }
         else if (scene_name == "Level_2_Parreno")
         {
             if (Input.GetKeyDown(KeyCode.E) && can_break_wall)
             {
-                Debug.Log("Pressed A Key!!!");
+                AudioSource.PlayClipAtPoint(wall_sfx, transform.position);
+                Pickaxe_Handler.collected -= 1;
                 var wall = Instantiate(breakable_wall, transform.position, transform.rotation);
                 gameObject.SetActive(false);
                 Destroy(wall, 3f);
@@ -50,7 +49,14 @@ public class Breakable_Wall_Controller : MonoBehaviour
         }
         else if (scene_name == "Level_3_Perucho")
         {
-            Debug.Log("Scene Level 3");
+            if (Input.GetKeyDown(KeyCode.E) && can_break_wall)
+            {
+                AudioSource.PlayClipAtPoint(wall_sfx, transform.position);
+                Pickaxe_Handler.collected -= 1;
+                var wall = Instantiate(breakable_wall, transform.position, transform.rotation);
+                gameObject.SetActive(false);
+                Destroy(wall, 3f);
+            }
         }
 
     }

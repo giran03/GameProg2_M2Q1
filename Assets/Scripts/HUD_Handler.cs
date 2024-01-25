@@ -59,8 +59,15 @@ public class HUD_Handler : MonoBehaviour
         // ======================= LEVEL 3 ======================= 
         else if (scene_name == "Level_3_Perucho")
         {
-            Debug.Log("Scene Level 3");
-            pickaxe_overlay.SetActive(false);
+            // pickaxe mechanic
+            pickaxe_overlay.SetActive(true);
+
+            // timer handler
+            timer -= Time.deltaTime;
+            float timer_to_seconds = Mathf.FloorToInt(timer);
+            level_timer.SetText("TIME REMAINING: " + timer_to_seconds);
+
+            GameOver();
         }
     }
 
