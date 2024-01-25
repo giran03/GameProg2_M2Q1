@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +9,7 @@ public class Breakable_Wall_Controller : MonoBehaviour
     [SerializeField] GameObject breakable_wall;
     [SerializeField] AudioClip wall_sfx;
     Scene current_scene;
-    String scene_name;
+    string scene_name;
     bool can_break_wall;
 
     private void Start()
@@ -42,6 +41,7 @@ public class Breakable_Wall_Controller : MonoBehaviour
         {
            if (Input.GetKeyDown(KeyCode.E) && can_break_wall && Pickaxe_Handler.collected != 0)
             {
+                AudioSource.PlayClipAtPoint(wall_sfx, transform.position);
                 Pickaxe_Handler.collected -= 1;
                 var wall = Instantiate(breakable_wall, transform.position, transform.rotation);
                 gameObject.SetActive(false);

@@ -16,7 +16,7 @@ public class Pickaxe_Handler : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Player"))
         {
-            AudioSource.PlayClipAtPoint(pick_up_sfx, transform.position);
+            AudioSource.PlayClipAtPoint(pick_up_sfx, transform.position, 50f);
             collected += 1;
             gameObject.SetActive(false);
             Debug.Log("Picked up a pickaxe");
