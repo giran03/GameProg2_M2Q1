@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3687428485415215697}
   - component: {fileID: 5924977961843051943}
   - component: {fileID: 4957021171390680988}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Wall_Breakable_Joined
   m_TagString: Untagged
   m_Icon: {fileID: 0}

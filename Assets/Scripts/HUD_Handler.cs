@@ -10,16 +10,21 @@ public class HUD_Handler : MonoBehaviour
     [SerializeField] TMP_Text pickaxe_text;
     [SerializeField] TMP_Text level_timer;
     [SerializeField] GameObject pickaxe_overlay;
-    [SerializeField] GameObject gameover_overlay;
+    [SerializeField] GameObject gameOver_overlay;
+    [SerializeField] GameObject gameWin_overlay;
+    public static float timer;
+    public static int playTime_Counter;
     Scene current_scene;
     string scene_name;
-    public static float timer;
+    public static int scene_index;
+    public static bool winner;
 
     private void Update()
     {
         // get current scene
         current_scene = SceneManager.GetActiveScene();
         scene_name = current_scene.name;
+        scene_index = current_scene.buildIndex;
 
         pickaxe_text.SetText("X " + Pickaxe_Handler.collected);
 
@@ -31,36 +36,23 @@ public class HUD_Handler : MonoBehaviour
         // ======================= LEVEL 1 ======================= 
         if (scene_name == "Level_1_Cifra")
         {
-            // pickaxe mechanic
-            pickaxe_overlay.SetActive(true);
-
-            // timer handler
-            timer -= Time.deltaTime;
-            float timer_to_seconds = Mathf.FloorToInt(timer);
-            level_timer.SetText("TIME REMAINING: " + timer_to_seconds);
-
+            StartLevelTimer();
             GameOver();
         }
 
         // ======================= LEVEL 2 ======================= 
         else if (scene_name == "Level_2_Parreno")
         {
-            // pickaxe mechanic
-            pickaxe_overlay.SetActive(true);
-
-            // timer handler
-            timer -= Time.deltaTime;
-            float timer_to_seconds = Mathf.FloorToInt(timer);
-            level_timer.SetText("TIME REMAINING: " + timer_to_seconds);
-
+            StartLevelTimer();
             GameOver();
         }
 
         // ======================= LEVEL 3 ======================= 
         else if (scene_name == "Level_3_Perucho")
         {
-            Debug.Log("Scene Level 3");
-            pickaxe_overlay.SetActive(false);
+            StartLevelTimer();
+            GameOver();
+            Win();
         }
     }
 
@@ -69,15 +61,21 @@ public class HUD_Handler : MonoBehaviour
         if (timer <= 0)
         {
             timer = 0;
-            gameover_overlay.SetActive(true);
-            AudioListener.volume = 0;
-            Player_Controller.isGameOver = true;
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            gameOver_overlay.SetActive(true);
+            ResetTotalPlaytime();
+            GameOverControls();
         }
         else
-            gameover_overlay.SetActive(false);
-
+            gameOver_overlay.SetActive(false);
+    }
+    public void Win()
+    {
+        if (winner)
+        {
+            gameWin_overlay.SetActive(true);
+            ResetTotalPlaytime();
+            GameOverControls();
+        }
     }
 
     public void RestartGame()
@@ -88,5 +86,29 @@ public class HUD_Handler : MonoBehaviour
     public void ReturnToMainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    void ResetTotalPlaytime()
+    {
+        playTime_Counter = 0;
+    }
+
+    void GameOverControls()
+    {
+        AudioListener.volume = 0;
+        Player_Controller.isGameOver = true;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    void StartLevelTimer()
+    {
+        // pickaxe mechanic
+        pickaxe_overlay.SetActive(true);
+
+        // timer handler
+        timer -= Time.deltaTime;
+        float timer_to_seconds = Mathf.FloorToInt(timer);
+        level_timer.SetText("TIME REMAINING: " + timer_to_seconds);
     }
 }

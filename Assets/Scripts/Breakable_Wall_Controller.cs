@@ -14,7 +14,7 @@ public class Breakable_Wall_Controller : MonoBehaviour
 
     private void Start()
     {
-        
+
     }
 
     void Update()
@@ -39,7 +39,7 @@ public class Breakable_Wall_Controller : MonoBehaviour
     {
         if (scene_name == "Level_1_Cifra")
         {
-           if (Input.GetKeyDown(KeyCode.E) && can_break_wall && Pickaxe_Handler.collected != 0)
+            if (Input.GetKeyDown(KeyCode.E) && can_break_wall && Pickaxe_Handler.collected != 0)
             {
                 AudioSource.PlayClipAtPoint(wall_sfx, transform.position);
                 Pickaxe_Handler.collected -= 1;
@@ -61,7 +61,14 @@ public class Breakable_Wall_Controller : MonoBehaviour
         }
         else if (scene_name == "Level_3_Perucho")
         {
-            Debug.Log("Scene Level 3");
+            if (Input.GetKeyDown(KeyCode.E) && can_break_wall && Pickaxe_Handler.collected != 0)
+            {
+                AudioSource.PlayClipAtPoint(wall_sfx, transform.position);
+                Pickaxe_Handler.collected -= 1;
+                var wall = Instantiate(breakable_wall, transform.position, transform.rotation);
+                gameObject.SetActive(false);
+                Destroy(wall, 3f);
+            }
         }
 
     }

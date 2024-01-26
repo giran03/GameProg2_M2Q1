@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Door_Handler : MonoBehaviour
 {
+    [SerializeField] GameObject HUD;
     Scene current_scene;
     string scene_name;
     int scene_index;
@@ -27,9 +28,9 @@ public class Door_Handler : MonoBehaviour
 
     void NextLevel()
     {
-        if(scene_name != "Level_3_Perucho")
-            SceneManager.LoadScene(scene_index + 1);
+        if(scene_name == "Level_3_Perucho")
+            HUD_Handler.winner = true;
         else
-            Debug.Log("Congrats!");
+            SceneManager.LoadScene(scene_index + 1);
     }
 }

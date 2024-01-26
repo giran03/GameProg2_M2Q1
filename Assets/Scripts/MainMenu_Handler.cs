@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu_Handler : MonoBehaviour
 {
+    private void Start()
+    {
+        HUD_Handler.winner = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
     public void Play()
     {
         SceneManager.LoadScene(1);

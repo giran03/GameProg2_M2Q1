@@ -261,6 +261,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e2cc89300dc7784da92665aa38766dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controls_overlay: {fileID: 1517247526}
+--- !u!1 &1517247526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8134176531966186420, guid: aaf8ef773574b9947b185d7bf661fde8, type: 3}
+  m_PrefabInstance: {fileID: 4036138195540174898}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2139692824230429460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -404,6 +410,10 @@ PrefabInstance:
     - target: {fileID: 8038738317799904662, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390955404418122555, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
+      propertyPath: mainMenu_key
+      value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 8390955404418122555, guid: f33dcceb7197cec45b8454a4f2c5b739, type: 3}
       propertyPath: rotationSpeed
